@@ -1,0 +1,6 @@
+framework module Pods_RxStepByStep {
+  umbrella header "Pods-RxStepByStep-umbrella.h"
+
+  export *
+  module * { export * }
+}
