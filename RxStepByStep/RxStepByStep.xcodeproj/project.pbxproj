@@ -13,6 +13,7 @@
 		C96DEE6A1F5937D6001FAC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96DEE681F5937D6001FAC16 /* Main.storyboard */; };
 		C96DEE6C1F5937D6001FAC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96DEE6B1F5937D6001FAC16 /* Assets.xcassets */; };
 		C96DEE6F1F5937D6001FAC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96DEE6D1F5937D6001FAC16 /* LaunchScreen.storyboard */; };
+		C96DEE791F593FC2001FAC16 /* LoginValidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96DEE781F593FC2001FAC16 /* LoginValidViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C96DEE6B1F5937D6001FAC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96DEE6E1F5937D6001FAC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96DEE701F5937D6001FAC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96DEE781F593FC2001FAC16 /* LoginValidViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginValidViewController.swift; sourceTree = "<group>"; };
 		D142EB08A3F0D1523E4F4C88 /* Pods-RxStepByStep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStepByStep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxStepByStep/Pods-RxStepByStep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				C96DEE641F5937D6001FAC16 /* AppDelegate.swift */,
+				C96DEE781F593FC2001FAC16 /* LoginValidViewController.swift */,
 				C96DEE661F5937D6001FAC16 /* ViewController.swift */,
 				C96DEE681F5937D6001FAC16 /* Main.storyboard */,
 				C96DEE6B1F5937D6001FAC16 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C96DEE671F5937D6001FAC16 /* ViewController.swift in Sources */,
+				C96DEE791F593FC2001FAC16 /* LoginValidViewController.swift in Sources */,
 				C96DEE651F5937D6001FAC16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +380,7 @@
 				C96DEE751F5937D6001FAC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
